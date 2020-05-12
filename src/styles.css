@@ -1,3 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+.header__name {
+  margin: 5vh 10vh;
+}
+
+.about {
+  margin: 5vh 10vh;
+  width: 50vw;
 }
